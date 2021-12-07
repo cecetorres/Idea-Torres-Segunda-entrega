@@ -1,0 +1,65 @@
+/* INDICE:
+1) GENERAL
+2)INDEX
+3)NOSOTROS
+4)CURSOS
+5)FAQ
+6)OPINIONES
+7)CONTACTANOS
+
+1) GENERAL ####################################################################### */
+header{
+    background-color: #0077B6;
+    height: 6em;
+}
+.logo{
+    width: 5em;
+    padding: .5em;
+}
+span{
+    font-weight: bold;
+}
+.pie-de-pagina{
+    background-color: #023E8A;
+    color: white;
+    height: 3em;
+}
+.con-margen{margin-top: 2em;}
+.con-margen-grueso{margin-top: 6em;}
+
+.con-espacio-grueso{padding-top: 6em;}
+/* 2)INDEX#################################################################### */
+.fondo-azul{background-color: #ADE8F4;}
+.fondo-azul2{background-color: #48CAE4 ;}
+.fondo-azul3{background-color: #CAF0F8;}
+
+/* 3)NOSOTROS#################################################################### */
+.titulo-nosotros{
+    background-color: #ADE8F4;
+}
+
+/* 4)CURSOS#################################################################### */
+.fondo-color{background-color: #ADE8F4;}
+.container-cursos{margin-top: 2em;}
+
+/* 5)FAQ#################################################################### */
+
+.img1{width: fit-content;}
+.img2{width: fit-content;}
+.img3{width: fit-content;}
+.img4{width: fit-content;}
+.img5{width: fit-content;}
+.img6{width: fit-content;}
+.img7{width: fit-content;}
+.img8{width: fit-content;}
+.img9{width: fit-content;}
+.img10{width: fit-content;}
+
+
+/* 6)OPINIONES#################################################################### */
+
+/* 7)CONTACTANOS#################################################################### */
+.formulario{
+    background-color: #48CAE4;
+    border: solid 2px black;
+}
