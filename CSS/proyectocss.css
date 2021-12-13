@@ -1,10 +1,205 @@
+/* MARGENES */
+/* COLORES DE FONDO */
+/* EMPIEZA IMAGEN DE INICIO */
+.contenedor {
+  color: white;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  margin-top: 5em; }
+  .contenedor .titulo-encima {
+    background-color: #023E8A;
+    width: 15em;
+    height: 2em;
+    position: absolute;
+    top: 20%;
+    left: 10%; }
+  .contenedor .texto-encima {
+    background-color: #023E8A;
+    width: 15em;
+    height: 10em;
+    position: absolute;
+    top: 35%;
+    left: 10%; }
+
+/* SECCION AL MEDIO */
+.m {
+  background-color: #023E8A;
+  width: 100%;
+  height: 50em;
+  padding-left: 2em; }
+
+.alto {
+  height: 16em; }
+
+/* ULTIMA SECCION */
+.titulo-ultimo {
+  background-color: #023E8A;
+  width: 15em;
+  height: 3em;
+  position: absolute;
+  top: 20%;
+  left: 10%; }
+
+/* PARA EVITAR SCROLL HORIZONTAL */
+.scroll {
+  max-width: 100%; }
+
+.texto-nosotros {
+  font-size: bold; }
+
+.alto-nosotros {
+  height: 28em; }
+
+.container-cursos {
+  margin-top: 2em; }
+
+.aumento:hover {
+  animation-name: aumento_imagenes;
+  animation-duration: 3s;
+  animation-timing-function: ease; }
+
+.img1 {
+  width: fit-content; }
+
+.img2 {
+  width: fit-content; }
+
+.img3 {
+  width: fit-content; }
+
+.img4 {
+  width: fit-content; }
+
+.img5 {
+  width: fit-content; }
+
+.img6 {
+  width: fit-content; }
+
+.img7 {
+  width: fit-content; }
+
+.img8 {
+  width: fit-content; }
+
+.img9 {
+  width: fit-content; }
+
+.img10 {
+  width: fit-content; }
+
+.formulario {
+  background-color: #48CAE4;
+  border: solid 2px black;
+  position: absolute;
+  top: 20%;
+  right: 10%; }
+  .formulario:hover {
+    animation-name: aumento_imagenes;
+    animation-duration: 3s;
+    animation-timing-function: ease; }
+
+/* ENCABEZADO */
 header {
   background-color: #CAF0F8;
   height: 6em; }
+  header .navbar-collapse {
+    background-color: #CAF0F8; }
+  header .logo {
+    width: 5em;
+    padding: .5em; }
 
-.navbar-collapse {
-  background-color: #CAF0F8; }
+/* ANIMACION RAYA DEBAJO */
+.subrayado {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .3s; }
+  .subrayado:hover .subrayado :focus {
+    background-size: 100% 2px; }
 
-.logo {
-  width: 5em;
-  padding: .5em; }
+/* ANIMACION AUMENTO DE IMAGENES */
+@keyframes aumento_imagenes {
+  0% {
+    transform: scale(1, 1); }
+  50% {
+    transform: scale(1.5, 1.5); }
+  100% {
+    transform: scale(0.5, 0.5); } }
+
+/* PIE DE PAGINA */
+.pie-de-pagina {
+  background-color: #CAF0F8;
+  color: black;
+  height: 3.5em; }
+
+/* MARGENES */
+.con-margen {
+  margin-top: 2em; }
+
+.margen-izquierdo {
+  margin-left: 6em; }
+
+.con-margen-grueso {
+  margin-top: 6em; }
+
+.con-espacio-grueso {
+  padding-top: 6em; }
+
+.ordenar {
+  justify-content: space-around; }
+
+.recortar {
+  max-height: 40em; }
+
+/* BOTON DE WHATSAPP */
+.boton--contacto {
+  position: fixed;
+  right: 1%;
+  bottom: 10%; }
+  .boton--contacto:hover {
+    animation-name: rotacion_logo;
+    animation-duration: 3s;
+    animation-timing-function: ease; }
+
+@keyframes rotacion_logo {
+  0% {
+    transform: rotate(0deg); }
+  50% {
+    transform: rotate(20deg); }
+  100% {
+    transform: rotate(0deg); } }
+
+/* TITULOS BLANCOS CON RAYAS NEGRAS */
+.titulo {
+  display: inline-block;
+  background-color: white;
+  position: relative; }
+  .titulo .n {
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    height: 8em;
+    padding-top: 2em; }
+  .titulo .n {
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    height: 8em;
+    padding-top: 2em; }
+  .titulo .titulo::after, .titulo .titulo::before {
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: black;
+    background-color: currentColor;
+    top: 0.6em; }
+  .titulo .titulo::before {
+    left: -140px; }
+  .titulo .titulo::after {
+    right: -140px; }
