@@ -31,6 +31,7 @@ span{
 .margen-izquierdo{margin-left: 6em;}
 .con-margen-grueso{margin-top: 6em;}
 .ordenar{justify-content: space-around;}
+.recortar{max-height: 40em;}
 .subrayado{
     background-image: linear-gradient(currentColor, currentColor);
     background-position: 0% 100%;
@@ -167,4 +168,7 @@ span{
 .formulario{
     background-color: #48CAE4;
     border: solid 2px black;
+    position: absolute;
+    top: 20%;
+    right: 10%;
 }
