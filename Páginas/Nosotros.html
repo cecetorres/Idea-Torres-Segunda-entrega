@@ -8,6 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- LINK CSS PROPIO -->
     <link rel="stylesheet" href="../CSS/Styles.css">
+    <!-- LINK A LIBRERIA ANIM -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="shortcut icon" href="../imágenes/Favicon VLue.jpg">
     <title>Nosotros</title>
 </head>
@@ -61,13 +63,13 @@
         </div>
         <div class="contenedor-3-cards row align-items-center fondo-negro ordenar scroll">
             <div class="card" style="width: 18rem;">
-                <img src="../imágenes/posibles imagenes/Profe-Leo.JPG" class="card-img-top alto-nosotros" alt="...">
+                <img src="../imágenes/posibles imagenes/Profe-Leo.JPG" data-aos="fade-up" class="card-img-top alto-nosotros" alt="...">
             </div>
             <div class="card" style="width: 18rem;">
-                <img src="../imágenes/posibles imagenes/Profe-Diana.JPG" class="card-img-top alto-nosotros" alt="...">
+                <img src="../imágenes/posibles imagenes/Profe-Diana.JPG" data-aos="fade-up" class="card-img-top alto-nosotros" alt="...">
             </div>
             <div class="card" style="width: 18rem;">
-                <img src="../imágenes/posibles imagenes/Profe-Memo.JPG" class="card-img-top alto-nosotros" alt="...">
+                <img src="../imágenes/posibles imagenes/Profe-Memo.JPG" data-aos="fade-up" class="card-img-top alto-nosotros" alt="...">
             </div>
         </div>
         <div class="n">
@@ -81,7 +83,7 @@
                     <div class="card text-light text-center fondo-azul4 mb-3" style="max-width: 18rem;">
                         <div class="card-body">
                             <h5 class="card-title">1. Oportunidades laborales: </h5>
-                            <p class="card-text">Saber inglés incrementa tus oportunidades a la hora de conseguir un buen trabajo o de ingresar en compañías multinacionales.</p>
+                            <p data-aos="fade-right" class="card-text">Saber inglés incrementa tus oportunidades a la hora de conseguir un buen trabajo o de ingresar en compañías multinacionales.</p>
                         </div>
                     </div>
                 </div>
@@ -89,7 +91,7 @@
                     <div class="card text-light text-center fondo-azul4 mb-3" style="max-width: 18rem;">
                         <div class="card-body">
                             <h5 class="card-title">2. Comunicación:</h5>
-                            <p class="card-text">Saber un nuevo idioma, en este caso el inglés, expande tus habilidades comunicativas, lo que te permitirá establecer nuevas relaciones personales o laborales con diferentes personas que se comunican de esta forma.</p>
+                            <p data-aos="fade-up" class="card-text">Saber un nuevo idioma, en este caso el inglés, expande tus habilidades comunicativas, lo que te permitirá establecer nuevas relaciones personales o laborales con diferentes personas que se comunican de esta forma.</p>
                         </div>
                     </div>
                 </div>
@@ -97,7 +99,7 @@
                     <div class="card text-light text-center fondo-azul4 mb-3" style="max-width: 18rem;">
                         <div class="card-body">
                             <h5 class="card-title">3. Educación e Información:</h5>
-                            <p class="card-text">El 56% de las entradas publicadas en internet se encuentran en inglés, por lo tanto saberlo te ayudará a acceder a diferentes noticias y textos académicos más completos que contengan mayor información.</p>
+                            <p data-aos="fade-left" class="card-text">El 56% de las entradas publicadas en internet se encuentran en inglés, por lo tanto saberlo te ayudará a acceder a diferentes noticias y textos académicos más completos que contengan mayor información.</p>
                         </div>
                     </div>
                 </div>
@@ -109,7 +111,7 @@
                     <div class="card text-light text-center fondo-azul4 mb-3 margen-izquierdo" style="max-width: 18rem;">
                         <div class="card-body">
                             <h5 class="card-title">4. Viajes:</h5>
-                            <p class="card-text">Al momento de viajar a otro país que posea un idioma diferente al tuyo, el comunicarte en Inglés facilitará más tu estadía, dado que es la 3era lengua más hablada del mundo.</p>
+                            <p data-aos="fade-right" class="card-text">Al momento de viajar a otro país que posea un idioma diferente al tuyo, el comunicarte en Inglés facilitará más tu estadía, dado que es la 3era lengua más hablada del mundo.</p>
                         </div>
                     </div>
                 </div>
@@ -117,7 +119,7 @@
                     <div class="card text-light text-center fondo-azul4 mb-3" style="max-width: 18rem;">
                         <div class="card-body">
                             <h5 class="card-title">5. Conocimiento:</h5>
-                            <p class="card-text">Por último. Cuando aprendemos un nuevo idioma ejercitamos nuestra mente y memoria, por lo cual disminuirán nuestras probabilidades de padecer enfermedades como el Alzhimer, la Demencia Senil, entre otras.</p>
+                            <p data-aos="fade-left" class="card-text">Por último. Cuando aprendemos un nuevo idioma ejercitamos nuestra mente y memoria, por lo cual disminuirán nuestras probabilidades de padecer enfermedades como el Alzhimer, la Demencia Senil, entre otras.</p>
                         </div>
                     </div>
                 </div>
@@ -155,4 +157,9 @@
 </body>
 <!-- LINK JS BOOTSTRAP -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<!-- LINK JS LIBRERIA ANIM -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </html>

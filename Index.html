@@ -8,6 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- LINK CSS PROPIO -->
     <link rel="stylesheet" href="CSS/Styles.css">
+    <!-- LINK A LIBRERIA ANIM -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="shortcut icon" href="imágenes/Favicon VLue.jpg">
     <title>Vlue_English</title>
 </head>
@@ -35,7 +37,7 @@
         </nav>
     </header>
     <main class="container-fluid fondo-azul3">
-        <div class="contenedor">
+        <div data-aos="zoom-out-down" class="contenedor">
             <img class="fondo-1" src="imágenes/posibles imagenes/intento.jpg"></a>
             <div>
                 <h1 class="titulo-encima">Bienvenido de Vlue English</h1>
@@ -47,7 +49,7 @@
         </div>
         <div class="contenedor-3-cards row align-items-center fondo-azul4 ordenar">
             <div class="card" style="width: 18rem;">
-                <img src="imágenes/posibles imagenes/foto-vertical.jpg" class="card-img-top alto" alt="...">
+                <img src="imágenes/posibles imagenes/foto-vertical.jpg" data-aos="zoom-in" class="card-img-top alto" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">¿Por qué aprender ingles?</h5>
                     <p class="card-text">Cinco razones por las cuales aprender ingles te ayudara en distintos aspectos de tu vida</p>
@@ -55,7 +57,7 @@
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
-                <img src="imágenes/Foto Diana.JPG" class="card-img-top alto" alt="...">
+                <img src="imágenes/Foto Diana.JPG" data-aos="zoom-in" class="card-img-top alto" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Conócenos</h5>
                     <p class="card-text">Vlue English comenzó como un emprendimiento personal hace 3 años dando clases de inglés ✏</p>
@@ -63,7 +65,7 @@
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
-                <img src="imágenes/promociones.JPG" class="card-img-top alto" alt="...">
+                <img src="imágenes/promociones.JPG" data-aos="zoom-in" class="card-img-top alto" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Termina el 2021 hablando inglés</h5>
                     <p class="card-text">Queremos ayudarte a cumplir tu meta antes del 21 de Diciembre, y con nosotros, es posible🌟</p>
@@ -72,7 +74,7 @@
             </div>
         </div>
         <div class="ultimo-index">
-            <div class="contenedor">
+            <div data-aos="zoom-out" class="contenedor">
                 <img class="fondo-1" src="imágenes/posibles imagenes/final-index.jpg"></a>
                 <div class="contenedor-azul">
                     <h1 class="titulo-ultimo">Comienza tu viaje por el aprendizaje con nosotros</h1>
@@ -110,5 +112,10 @@
     
     <!-- LINK JS BOOTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- LINK JS LIBRERIA ANIM -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

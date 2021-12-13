@@ -1,0 +1,25 @@
+{
+  "name": "idea-torres-segunda-entrega",
+  "version": "1.0.0",
+  "description": "Este es el repositorio para la segunda entrega del proyecto de Desarrollo Web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/proyecto.scss css/proyectocss.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cecetorres/Idea-Torres-Segunda-entrega.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cecetorres/Idea-Torres-Segunda-entrega/issues"
+  },
+  "homepage": "https://github.com/cecetorres/Idea-Torres-Segunda-entrega#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
