@@ -12,6 +12,9 @@ header{
     background-color: #CAF0F8;
     height: 6em;
 }
+.navbar-collapse{
+    background-color: #CAF0F8;
+}
 .logo{
     width: 5em;
     padding: .5em;
@@ -25,6 +28,7 @@ span{
     height: 3.5em;
 }
 .con-margen{margin-top: 2em;}
+.margen-izquierdo{margin-left: 6em;}
 .con-margen-grueso{margin-top: 6em;}
 .ordenar{justify-content: space-around;}
 .subrayado{
@@ -44,6 +48,7 @@ span{
 .fondo-azul2{background-color: #48CAE4 ;}
 .fondo-azul3{background-color: #CAF0F8;}
 .fondo-azul4{background-color: #023E8A;}
+.fondo-negro{background-color: black;}
 .fondo-1{
     width: 100%;
     height: 100%;
@@ -120,12 +125,26 @@ span{
     left: 10%;
 }
 /* 3)NOSOTROS#################################################################### */
+.scroll{max-width: 100%;}
 .titulo-nosotros{
     background-color: #ADE8F4;
 }
-
+.fondo-2{
+    width: 30%;
+    margin-left: 2em;
+}
+.inicio-nosotros{
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-top: 3em;
+}
+.texto-nosotros{font-size: bold;}
+.alto-nosotros{height: 28em;}
 /* 4)CURSOS#################################################################### */
-.fondo-color{background-color: #ADE8F4;}
 .container-cursos{margin-top: 2em;}
 
 /* 5)FAQ#################################################################### */
