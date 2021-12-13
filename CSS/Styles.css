@@ -9,7 +9,7 @@
 
 1) GENERAL ####################################################################### */
 header{
-    background-color: #0077B6;
+    background-color: #CAF0F8;
     height: 6em;
 }
 .logo{
@@ -26,6 +26,16 @@ span{
 }
 .con-margen{margin-top: 2em;}
 .con-margen-grueso{margin-top: 6em;}
+.subrayado{
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+.subrayado:hover, .subrayado:focus {
+    background-size: 100% 2px;
+}
 
 .con-espacio-grueso{padding-top: 6em;}
 /* 2)INDEX#################################################################### */
