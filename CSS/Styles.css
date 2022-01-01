@@ -8,6 +8,7 @@
 7)CONTACTANOS
 
 1) GENERAL ####################################################################### */
+body{text-decoration: none}
 header{
     background-color: #CAF0F8;
     height: 6em;
@@ -23,6 +24,7 @@ span{
     font-weight: bold;
 }
 .pie-de-pagina{
+    text-decoration: none;
     background-color: #CAF0F8;
     color: black;
     height: 3.5em;
@@ -181,8 +183,11 @@ span{
     animation-duration: 3s;
     animation-timing-function: ease;
 }
-@keyframes aumento_imagenes{
-    0%{transform: scale(1,1);}
-    50%{transform: scale(1.5,1.5);}
-    100%{transform: scale(.5,.5);}
-}
+
+@keyframes aumento_imagenes {
+    0% {
+      transform: scale(1, 1); }
+    50% {
+      transform: scale(.5,.5); }
+    100% {
+      transform: scale(1, 1); } }
